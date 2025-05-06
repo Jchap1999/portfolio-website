@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="index.js"></script>
+
+    <style type="text/css">
+        body {
+            font-size: 1.6em;
+            font-family: "Courier New";
+            margin: 0;
+
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .show {
+            display: inline !important;
+        }
+         .bodytext {
+            text-align: center;
+            width: 300px;
+            height: 375px;
+            padding: 10px 20px;     
+            position: absolute;
+            top: 50%;
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+            right: 800px;
+
+        }
+        h2 {
+            line-height: 1px;
+        }
+        p {
+            line-height: 0.4; 
+        }
+        a:link {
+            color:#0a0a0a;
+            text-decoration: none;
+        }
+        a:hover {
+            color:#6fe771;
+        }
+        
+        .sidenav {
+            position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+            z-index: 1; /* Stay on top */
+            top: 0; /* Stay at the top */
+            overflow-x: hidden; /* Disable horizontal scroll */
+            margin-top: 115px;
+            margin-left: 305px;
+         
+        }
+
+        .sidenav a {
+            padding: 6px 8px 6px 16px;
+            text-decoration: none;
+            text-align: right;
+            font-size: 25px;
+            color: #000000;
+            display: block;
+        }
+
+        .sidenav a:hover {
+        color: #6fe771;
+        }
+
+        .samplework {
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            display: block;
+            max-width: 830px;
+            max-height: auto;
+            
+        }
+
+        .sampleimage {
+            border: 10px ridge rgb(71, 47, 27);
+
+        }
+
+        .spacer {
+            height: 100px;
+
+        }
+
+      
+
+    </style>
+    </head>
+        <body style="background-color: #FAF9F6;">
+
+            <div class="spacer">
+
+            </div>
+
+            <div class="sidenav">
+                <a href="index.html"><b>James Chapman</b></a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="aboutme.html">About me</a>
+
+                <img src="assets/portfolio image.gif" />
+            </div>
+
+            <div class="samplework">
+                <img src="assets/sample work 1.gif" class="sampleimage" />
+            </div>
+
+            <div class="samplework">
+                <img src="assets/sample work 2.gif" class="sampleimage" loading="lazy"/>
+            </div>
+
+            <div class="samplework">
+                <img src="assets/sample work 3.gif" class="sampleimage" loading="lazy"/>
+            </div>
+
+            <div class="samplework">
+                <img src="assets/sample work 4.gif" class="sampleimage" loading="lazy"/>
+            </div>
+
+
+
+        </body>
+    
+    </html>

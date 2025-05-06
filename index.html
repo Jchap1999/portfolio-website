@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <script src="index.js"></script>
 
@@ -10,6 +11,7 @@
         body {
             font-size: 1.6em;
             font-family: "Courier New";
+            
         }
 
         .hidden {
@@ -19,12 +21,21 @@
         .show {
             display: inline !important;
         }
-        .center {
-            padding: 300px 0;
+        div {
             text-align: center;
+            width: 300px;
+            height: 375px;
+           
+            padding: 10px 20px;     
+            position: absolute;
+            top: 50%;
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+            right: 800px;
+
         }
         h2 {
-            line-height: 0.1;
+            line-height: 1px;
         }
         p {
             line-height: 0.4; 
@@ -36,28 +47,35 @@
         a:hover {
             color:#6fe771;
         }
+
+
+        
+
     </style>
+</head>
+<body style="background-color: #FAF9F6;">
 
-<body>
-
-<div class="center">
+<div>
 
     <h2>James Chapman</h2>
 
     <p>
-        <A href="pages/portfolio.html">Portfolio</A>
+        <A href="portfolio.html">Portfolio</A>
     </p>
 
     <p>
-        <A href="pages/aboutme.html">About me</A>
+        <A href="aboutme.html">About me</A>
     </p>
 
-
     <img src="assets/plant.gif"/>
+
 </div>
+
+    
+
 
 
 </body>
 
-</head>
+
 </html>
